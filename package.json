@@ -33,7 +33,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "usememe",
+  "name": "memeoisation",
   "author": "Ben Foxall",
   "module": "dist/usememe.esm.js",
   "devDependencies": {
