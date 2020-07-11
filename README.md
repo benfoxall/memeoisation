@@ -1,14 +1,19 @@
-# useMeme
+# Memeoisation
+
+## useMeme
 
 ```js
-import { useMeme } from 'memeoisation'
+import React from 'react';
+import { useMeme } from 'memeoisation';
 
-const EnterpriseApp = () => {
-  const props = useMeme()
+export default function App() {
+  const { alt, src } = useMeme();
 
-  <img src={props.src}>
+  return <img alt={alt} src={src} />;
 }
 ```
+
+[example](https://codesandbox.io/s/zealous-spence-tr7xz?fontsize=14&hidenavigation=1&theme=dark)
 
 ## Development docs
 
