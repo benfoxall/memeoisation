@@ -40,3 +40,11 @@ jobs:
         run: yarn build
         env:
           CI: true
+
+      # TODO: only on main branch
+      - name: Publish
+        run: |
+          echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}' > .npmrc
+          node scripts/publish.js
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
