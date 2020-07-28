@@ -5,3 +5,5 @@ export function useMeme() {
     alt: 'One does not simply memoize a value',
   };
 }
+
+export const shouldI = () => 'YES_YOU_SHOULD';

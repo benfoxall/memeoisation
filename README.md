@@ -18,3 +18,7 @@ export default function App() {
 ## Development docs
 
 See [tsdx](https://github.com/formik/tsdx/blob/master/templates/react/README.md)
+
+## Testing
+
+There are definitely some tests
